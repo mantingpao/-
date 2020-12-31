@@ -25,3 +25,63 @@ Q
 
 A
 只有等于0会显示为0, 哪怕是1 Drip 也会显示.
+
+Q
+这个gas费是什么意思？所支付的gas费最终去了哪里？为什么有的转账所需要的费用特别多，有的少，多出来的去了哪里？
+
+A
+发送交易需要矿工打包执行，gas 费是付给矿工的，这样才会有人愿意运行节点，gas 支付多少根发送交易的 复杂度，交易期望执行时间有关。多出来的一般会退回，不同的链具体回退机制也不一样。
+
+Conflux挖矿奖励有3部分
+
+1.出块基础奖励
+
+2.手续费（gas费）
+
+3.抵押存储产生的利息
+
+portal默认的gas price只有1Drip，1cfx=100000000000000000drip
+
+Q
+W/System.err: java.lang.RuntimeException: "\"transaction epoch height 0 is out side the range of the current pivot height (7946694) bound, only 100000 drift allowed!\""
+
+A
+epochHeight 没有设置或设置的不对。option 里会自动设置 ，rawTx 不会自动设置。
+
+Q
+
+
+A
+
+
+Q
+
+
+A
+
+
+Q
+
+
+A
+
+
+Q
+
+
+A
+
+
+Q
+
+
+A
+
+
+Q
+
+
+A
+
+
+
