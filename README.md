@@ -49,22 +49,23 @@ A
 epochHeight 没有设置或设置的不对。option 里会自动设置 ，rawTx 不会自动设置。
 
 Q
-
+错误返回码的明确对应关系表
 
 A
-
+https://github.com/MetaMask/eth-rpc-errors/blob/84e90eb3ab121538eee406a67007cacb906c3fb9/src/error-constants.ts
 
 Q
-
+FC怎么在shuttleflow上跨出来到以太坊
 
 A
-
+FC是链内资产，目前不支持跨出到以太坊
 
 Q
-
+zero one的输入法聊天内容加密后上链么？内容多了，会不会对资源造成很大的消耗
 
 A
-
+非对称加密，没上链
+另外消息上链存的是events，不是storage。
 
 Q
 
