@@ -76,22 +76,353 @@ A <br>
 另外消息上链存的是events，不是storage。
 <br>
 
-Q
+Q <br>
+1.有接口获取某个地址挖出的所有区块吗？
+2.需要代码里面用，有没有浏览器api可以用？
+
+A <br>
+1.scan 上可以看到
+<br>
+
+Q <br>
+主网、测试网的RPC地址
+
+A <br>
+mainnet: https://main.confluxrpc.org
+testnet: https://test.confluxrpc.org
+<br>
+
+Q <br>
+测试网水龙头地址
+
+A <br>
+水龙头在 portal 的存入里面,网络需要先切为测试网。
+<br>
+
+Q <br>
+刚部署合约，发现从提交交易，到获取receipt大概要1分钟以上，这个正常吗
+
+A <br>
+conflux 网络会延迟 5 个 epoch 执行，大概是 5s 中，一分钟不太正常，可能是网络问题，或者是发生了 pivot chain switch
+<br>
+
+Q <br>
+如何使用shuttleflow将我钱包里面的USDT转到CONFLUX 变成CUSDT呢
+
+A <br>
+https://juejin.cn/post/6886458514097733639
+<br>
+
+Q <br>
+怎么过去数据，之前好好的，突然用不了了，总是提示 Uncaught (in promise) TypeError: Failed to fetch"，获取余额都获取不了，用网页却又可以。
+
+A <br>
+
+<br>
+
+Q <br>
 
 
-A
+A <br>
+
+<br>
+
+Q <br>
 
 
-Q
+A <br>
+
+<br>
 
 
-A
+Q <br>
 
 
-Q
+A <br>
+
+<br>
+
+Q <br>
 
 
-A
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+Q <br>
+
+
+A <br>
+
+<br>
+
+
 
 
 
