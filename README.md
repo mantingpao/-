@@ -121,7 +121,7 @@ A <br>
 <br>
 
 Q <br>
-把usdt换成cusdt,只能通过shuttlefow对吗？
+把usdt换成cusdt,只能通过shuttleflow对吗？
 
 A <br>
 目前moondex和moonswap也支持充值usdt，技术上也是基于shuttleflow的。但是，shuttleflow只支持从eth上跨usdt到conflux
